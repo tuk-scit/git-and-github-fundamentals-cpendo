@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,800;1,800&display=swap');
+
+body{
+    background-color: #F0F0F0;
+}
+.user-details h2{
+    font-family: 'Inter', sans-serif;
+    color: #D0A242;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.user-details h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #212529;
+    font-size: 1.8rem;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+.user-details > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content{
+    margin: 30px auto;
+}
+.content h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem; 
+    color: #D0A242;
+    padding: 15px;
+}
+.content h2{
+    font-family: 'Inter', sans-serif;
+    color: #D0A242;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+ol{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem; 
+}
+.button{
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+}
+.btn-primary{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background-color: #008080;
+    width: 20vw;
+    border: none;
+    
+}
+
+.btn-primary:hover{
+    background-color: #842029;;
+}

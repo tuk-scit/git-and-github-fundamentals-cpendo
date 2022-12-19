@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,800;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("assets/image.jpg");
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+header .title{  
+    text-transform: uppercase;
+    font-size: 2rem; 
+    font-style: normal;
+    margin: 0;
+}
+header p{
+    font-family: 'Inter', sans-serif;
+    color: #D0A242;
+    font-weight: 800;
+    font-size: 1rem; 
+    font-style: italic;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.content{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 2rem; 
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+.content span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2rem; 
+}
+
+form{
+    background-color: white;
+    width: 35vw;
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+label{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+input[type="text"], input[type="password"]{
+    background-color: #00808048;
+    font-size: 1.3rem;
+}
+input[type="text"], input[type="password"]:focus{
+    outline: none;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.btn-primary{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background-color: #008080;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #842029;;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.alert-danger{
+    padding: 10px;
+    margin: 0;
+}

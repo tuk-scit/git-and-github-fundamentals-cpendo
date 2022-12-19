@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/rules.css">
+    <title>Rules</title>
+</head>
+<body>
+
+    <div class="container mt-4">
+
+        <div class="user-details">
+            <div>
+                <h2>{{user.name}}</h2>
+                <h2>{{user.regno}}</h2>
+            </div>
+            <h3>{{user.school}}</h3>
+            <h3>Department of {{user.department}}</h3>
+        </div>
+        
+        <div class="content">
+            <h3>
+                Note that each student is allowed to vote once, after which your registration number 
+                can no longer be used to vote.
+            </h3>
+
+            <h2>Voter instructons</h2>
+            <ol>
+                <li>Mark the ballot by clicking on the space beside the selected candidate</li>
+                <li>Ensure to correctly follow the provided instructions on each page to move to the next page.</li>
+                <li>After voting in a category click next to move to another category.</li>
+                <li>The back arrow at the top of each page allows you to go back to previous category.</li>
+                <li>Clicking the submit button at the end sends your selections and is irreversible.</li>
+            </ol>
+            <div class="button">
+            <a class="btn btn-primary btn-lg" href="/vote" role="button">start</a>
+            </div>
+
+        </div>
+
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+</html>
